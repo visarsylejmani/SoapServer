@@ -74,7 +74,7 @@ namespace TodoASMXService.Services
         }
         public double CalculerFrais(int km, int poids)
         {
-            return km * poids * 0.001;
+            return km * poids * 0.002;
         }
     }
 }
