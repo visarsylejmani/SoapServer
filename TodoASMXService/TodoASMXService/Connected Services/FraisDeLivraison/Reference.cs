@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TodoASMXService.ServiceReference1 {
+namespace TodoASMXService.FraisDeLivraison {
     using System.Runtime.Serialization;
     using System;
     
@@ -106,36 +106,36 @@ namespace TodoASMXService.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.xamarin.com/webservices/", ConfigurationName="ServiceReference1.TodoServiceSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://www.xamarin.com/webservices/", ConfigurationName="FraisDeLivraison.TodoServiceSoap")]
     public interface TodoServiceSoap {
         
         // CODEGEN : La génération du contrat de message depuis le nom d'élément GetTodoItemsResult de l'espace de noms http://www.xamarin.com/webservices/ n'est pas marqué nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/GetTodoItems", ReplyAction="*")]
-        TodoASMXService.ServiceReference1.GetTodoItemsResponse GetTodoItems(TodoASMXService.ServiceReference1.GetTodoItemsRequest request);
+        TodoASMXService.FraisDeLivraison.GetTodoItemsResponse GetTodoItems(TodoASMXService.FraisDeLivraison.GetTodoItemsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/GetTodoItems", ReplyAction="*")]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.GetTodoItemsResponse> GetTodoItemsAsync(TodoASMXService.ServiceReference1.GetTodoItemsRequest request);
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.GetTodoItemsResponse> GetTodoItemsAsync(TodoASMXService.FraisDeLivraison.GetTodoItemsRequest request);
         
         // CODEGEN : La génération du contrat de message depuis le nom d'élément item de l'espace de noms http://www.xamarin.com/webservices/ n'est pas marqué nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/CreateTodoItem", ReplyAction="*")]
-        TodoASMXService.ServiceReference1.CreateTodoItemResponse CreateTodoItem(TodoASMXService.ServiceReference1.CreateTodoItemRequest request);
+        TodoASMXService.FraisDeLivraison.CreateTodoItemResponse CreateTodoItem(TodoASMXService.FraisDeLivraison.CreateTodoItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/CreateTodoItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.CreateTodoItemResponse> CreateTodoItemAsync(TodoASMXService.ServiceReference1.CreateTodoItemRequest request);
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.CreateTodoItemResponse> CreateTodoItemAsync(TodoASMXService.FraisDeLivraison.CreateTodoItemRequest request);
         
         // CODEGEN : La génération du contrat de message depuis le nom d'élément item de l'espace de noms http://www.xamarin.com/webservices/ n'est pas marqué nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/EditTodoItem", ReplyAction="*")]
-        TodoASMXService.ServiceReference1.EditTodoItemResponse EditTodoItem(TodoASMXService.ServiceReference1.EditTodoItemRequest request);
+        TodoASMXService.FraisDeLivraison.EditTodoItemResponse EditTodoItem(TodoASMXService.FraisDeLivraison.EditTodoItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/EditTodoItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.EditTodoItemResponse> EditTodoItemAsync(TodoASMXService.ServiceReference1.EditTodoItemRequest request);
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.EditTodoItemResponse> EditTodoItemAsync(TodoASMXService.FraisDeLivraison.EditTodoItemRequest request);
         
         // CODEGEN : La génération du contrat de message depuis le nom d'élément id de l'espace de noms http://www.xamarin.com/webservices/ n'est pas marqué nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/DeleteTodoItem", ReplyAction="*")]
-        TodoASMXService.ServiceReference1.DeleteTodoItemResponse DeleteTodoItem(TodoASMXService.ServiceReference1.DeleteTodoItemRequest request);
+        TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse DeleteTodoItem(TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/DeleteTodoItem", ReplyAction="*")]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.DeleteTodoItemResponse> DeleteTodoItemAsync(TodoASMXService.ServiceReference1.DeleteTodoItemRequest request);
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse> DeleteTodoItemAsync(TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.xamarin.com/webservices/CalculerFraisDeLivraison", ReplyAction="*")]
         double CalculerFraisDeLivraison(int km, int poids);
@@ -151,12 +151,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class GetTodoItemsRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetTodoItems", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.GetTodoItemsRequestBody Body;
+        public TodoASMXService.FraisDeLivraison.GetTodoItemsRequestBody Body;
         
         public GetTodoItemsRequest() {
         }
         
-        public GetTodoItemsRequest(TodoASMXService.ServiceReference1.GetTodoItemsRequestBody Body) {
+        public GetTodoItemsRequest(TodoASMXService.FraisDeLivraison.GetTodoItemsRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -178,12 +178,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class GetTodoItemsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetTodoItemsResponse", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.GetTodoItemsResponseBody Body;
+        public TodoASMXService.FraisDeLivraison.GetTodoItemsResponseBody Body;
         
         public GetTodoItemsResponse() {
         }
         
-        public GetTodoItemsResponse(TodoASMXService.ServiceReference1.GetTodoItemsResponseBody Body) {
+        public GetTodoItemsResponse(TodoASMXService.FraisDeLivraison.GetTodoItemsResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -195,12 +195,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class GetTodoItemsResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public TodoASMXService.ServiceReference1.TodoItem[] GetTodoItemsResult;
+        public TodoASMXService.FraisDeLivraison.TodoItem[] GetTodoItemsResult;
         
         public GetTodoItemsResponseBody() {
         }
         
-        public GetTodoItemsResponseBody(TodoASMXService.ServiceReference1.TodoItem[] GetTodoItemsResult) {
+        public GetTodoItemsResponseBody(TodoASMXService.FraisDeLivraison.TodoItem[] GetTodoItemsResult) {
             this.GetTodoItemsResult = GetTodoItemsResult;
         }
     }
@@ -212,12 +212,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class CreateTodoItemRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="CreateTodoItem", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.CreateTodoItemRequestBody Body;
+        public TodoASMXService.FraisDeLivraison.CreateTodoItemRequestBody Body;
         
         public CreateTodoItemRequest() {
         }
         
-        public CreateTodoItemRequest(TodoASMXService.ServiceReference1.CreateTodoItemRequestBody Body) {
+        public CreateTodoItemRequest(TodoASMXService.FraisDeLivraison.CreateTodoItemRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -229,12 +229,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class CreateTodoItemRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public TodoASMXService.ServiceReference1.TodoItem item;
+        public TodoASMXService.FraisDeLivraison.TodoItem item;
         
         public CreateTodoItemRequestBody() {
         }
         
-        public CreateTodoItemRequestBody(TodoASMXService.ServiceReference1.TodoItem item) {
+        public CreateTodoItemRequestBody(TodoASMXService.FraisDeLivraison.TodoItem item) {
             this.item = item;
         }
     }
@@ -246,12 +246,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class CreateTodoItemResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="CreateTodoItemResponse", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.CreateTodoItemResponseBody Body;
+        public TodoASMXService.FraisDeLivraison.CreateTodoItemResponseBody Body;
         
         public CreateTodoItemResponse() {
         }
         
-        public CreateTodoItemResponse(TodoASMXService.ServiceReference1.CreateTodoItemResponseBody Body) {
+        public CreateTodoItemResponse(TodoASMXService.FraisDeLivraison.CreateTodoItemResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -273,12 +273,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class EditTodoItemRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="EditTodoItem", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.EditTodoItemRequestBody Body;
+        public TodoASMXService.FraisDeLivraison.EditTodoItemRequestBody Body;
         
         public EditTodoItemRequest() {
         }
         
-        public EditTodoItemRequest(TodoASMXService.ServiceReference1.EditTodoItemRequestBody Body) {
+        public EditTodoItemRequest(TodoASMXService.FraisDeLivraison.EditTodoItemRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -290,12 +290,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class EditTodoItemRequestBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public TodoASMXService.ServiceReference1.TodoItem item;
+        public TodoASMXService.FraisDeLivraison.TodoItem item;
         
         public EditTodoItemRequestBody() {
         }
         
-        public EditTodoItemRequestBody(TodoASMXService.ServiceReference1.TodoItem item) {
+        public EditTodoItemRequestBody(TodoASMXService.FraisDeLivraison.TodoItem item) {
             this.item = item;
         }
     }
@@ -307,12 +307,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class EditTodoItemResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="EditTodoItemResponse", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.EditTodoItemResponseBody Body;
+        public TodoASMXService.FraisDeLivraison.EditTodoItemResponseBody Body;
         
         public EditTodoItemResponse() {
         }
         
-        public EditTodoItemResponse(TodoASMXService.ServiceReference1.EditTodoItemResponseBody Body) {
+        public EditTodoItemResponse(TodoASMXService.FraisDeLivraison.EditTodoItemResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -334,12 +334,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class DeleteTodoItemRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="DeleteTodoItem", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.DeleteTodoItemRequestBody Body;
+        public TodoASMXService.FraisDeLivraison.DeleteTodoItemRequestBody Body;
         
         public DeleteTodoItemRequest() {
         }
         
-        public DeleteTodoItemRequest(TodoASMXService.ServiceReference1.DeleteTodoItemRequestBody Body) {
+        public DeleteTodoItemRequest(TodoASMXService.FraisDeLivraison.DeleteTodoItemRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -368,12 +368,12 @@ namespace TodoASMXService.ServiceReference1 {
     public partial class DeleteTodoItemResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="DeleteTodoItemResponse", Namespace="http://www.xamarin.com/webservices/", Order=0)]
-        public TodoASMXService.ServiceReference1.DeleteTodoItemResponseBody Body;
+        public TodoASMXService.FraisDeLivraison.DeleteTodoItemResponseBody Body;
         
         public DeleteTodoItemResponse() {
         }
         
-        public DeleteTodoItemResponse(TodoASMXService.ServiceReference1.DeleteTodoItemResponseBody Body) {
+        public DeleteTodoItemResponse(TodoASMXService.FraisDeLivraison.DeleteTodoItemResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -389,12 +389,12 @@ namespace TodoASMXService.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface TodoServiceSoapChannel : TodoASMXService.ServiceReference1.TodoServiceSoap, System.ServiceModel.IClientChannel {
+    public interface TodoServiceSoapChannel : TodoASMXService.FraisDeLivraison.TodoServiceSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class TodoServiceSoapClient : System.ServiceModel.ClientBase<TodoASMXService.ServiceReference1.TodoServiceSoap>, TodoASMXService.ServiceReference1.TodoServiceSoap {
+    public partial class TodoServiceSoapClient : System.ServiceModel.ClientBase<TodoASMXService.FraisDeLivraison.TodoServiceSoap>, TodoASMXService.FraisDeLivraison.TodoServiceSoap {
         
         public TodoServiceSoapClient() {
         }
@@ -416,98 +416,98 @@ namespace TodoASMXService.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        TodoASMXService.ServiceReference1.GetTodoItemsResponse TodoASMXService.ServiceReference1.TodoServiceSoap.GetTodoItems(TodoASMXService.ServiceReference1.GetTodoItemsRequest request) {
+        TodoASMXService.FraisDeLivraison.GetTodoItemsResponse TodoASMXService.FraisDeLivraison.TodoServiceSoap.GetTodoItems(TodoASMXService.FraisDeLivraison.GetTodoItemsRequest request) {
             return base.Channel.GetTodoItems(request);
         }
         
-        public TodoASMXService.ServiceReference1.TodoItem[] GetTodoItems() {
-            TodoASMXService.ServiceReference1.GetTodoItemsRequest inValue = new TodoASMXService.ServiceReference1.GetTodoItemsRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.GetTodoItemsRequestBody();
-            TodoASMXService.ServiceReference1.GetTodoItemsResponse retVal = ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).GetTodoItems(inValue);
+        public TodoASMXService.FraisDeLivraison.TodoItem[] GetTodoItems() {
+            TodoASMXService.FraisDeLivraison.GetTodoItemsRequest inValue = new TodoASMXService.FraisDeLivraison.GetTodoItemsRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.GetTodoItemsRequestBody();
+            TodoASMXService.FraisDeLivraison.GetTodoItemsResponse retVal = ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).GetTodoItems(inValue);
             return retVal.Body.GetTodoItemsResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.GetTodoItemsResponse> TodoASMXService.ServiceReference1.TodoServiceSoap.GetTodoItemsAsync(TodoASMXService.ServiceReference1.GetTodoItemsRequest request) {
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.GetTodoItemsResponse> TodoASMXService.FraisDeLivraison.TodoServiceSoap.GetTodoItemsAsync(TodoASMXService.FraisDeLivraison.GetTodoItemsRequest request) {
             return base.Channel.GetTodoItemsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.GetTodoItemsResponse> GetTodoItemsAsync() {
-            TodoASMXService.ServiceReference1.GetTodoItemsRequest inValue = new TodoASMXService.ServiceReference1.GetTodoItemsRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.GetTodoItemsRequestBody();
-            return ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).GetTodoItemsAsync(inValue);
+        public System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.GetTodoItemsResponse> GetTodoItemsAsync() {
+            TodoASMXService.FraisDeLivraison.GetTodoItemsRequest inValue = new TodoASMXService.FraisDeLivraison.GetTodoItemsRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.GetTodoItemsRequestBody();
+            return ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).GetTodoItemsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        TodoASMXService.ServiceReference1.CreateTodoItemResponse TodoASMXService.ServiceReference1.TodoServiceSoap.CreateTodoItem(TodoASMXService.ServiceReference1.CreateTodoItemRequest request) {
+        TodoASMXService.FraisDeLivraison.CreateTodoItemResponse TodoASMXService.FraisDeLivraison.TodoServiceSoap.CreateTodoItem(TodoASMXService.FraisDeLivraison.CreateTodoItemRequest request) {
             return base.Channel.CreateTodoItem(request);
         }
         
-        public void CreateTodoItem(TodoASMXService.ServiceReference1.TodoItem item) {
-            TodoASMXService.ServiceReference1.CreateTodoItemRequest inValue = new TodoASMXService.ServiceReference1.CreateTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.CreateTodoItemRequestBody();
+        public void CreateTodoItem(TodoASMXService.FraisDeLivraison.TodoItem item) {
+            TodoASMXService.FraisDeLivraison.CreateTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.CreateTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.CreateTodoItemRequestBody();
             inValue.Body.item = item;
-            TodoASMXService.ServiceReference1.CreateTodoItemResponse retVal = ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).CreateTodoItem(inValue);
+            TodoASMXService.FraisDeLivraison.CreateTodoItemResponse retVal = ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).CreateTodoItem(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.CreateTodoItemResponse> TodoASMXService.ServiceReference1.TodoServiceSoap.CreateTodoItemAsync(TodoASMXService.ServiceReference1.CreateTodoItemRequest request) {
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.CreateTodoItemResponse> TodoASMXService.FraisDeLivraison.TodoServiceSoap.CreateTodoItemAsync(TodoASMXService.FraisDeLivraison.CreateTodoItemRequest request) {
             return base.Channel.CreateTodoItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.CreateTodoItemResponse> CreateTodoItemAsync(TodoASMXService.ServiceReference1.TodoItem item) {
-            TodoASMXService.ServiceReference1.CreateTodoItemRequest inValue = new TodoASMXService.ServiceReference1.CreateTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.CreateTodoItemRequestBody();
+        public System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.CreateTodoItemResponse> CreateTodoItemAsync(TodoASMXService.FraisDeLivraison.TodoItem item) {
+            TodoASMXService.FraisDeLivraison.CreateTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.CreateTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.CreateTodoItemRequestBody();
             inValue.Body.item = item;
-            return ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).CreateTodoItemAsync(inValue);
+            return ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).CreateTodoItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        TodoASMXService.ServiceReference1.EditTodoItemResponse TodoASMXService.ServiceReference1.TodoServiceSoap.EditTodoItem(TodoASMXService.ServiceReference1.EditTodoItemRequest request) {
+        TodoASMXService.FraisDeLivraison.EditTodoItemResponse TodoASMXService.FraisDeLivraison.TodoServiceSoap.EditTodoItem(TodoASMXService.FraisDeLivraison.EditTodoItemRequest request) {
             return base.Channel.EditTodoItem(request);
         }
         
-        public void EditTodoItem(TodoASMXService.ServiceReference1.TodoItem item) {
-            TodoASMXService.ServiceReference1.EditTodoItemRequest inValue = new TodoASMXService.ServiceReference1.EditTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.EditTodoItemRequestBody();
+        public void EditTodoItem(TodoASMXService.FraisDeLivraison.TodoItem item) {
+            TodoASMXService.FraisDeLivraison.EditTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.EditTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.EditTodoItemRequestBody();
             inValue.Body.item = item;
-            TodoASMXService.ServiceReference1.EditTodoItemResponse retVal = ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).EditTodoItem(inValue);
+            TodoASMXService.FraisDeLivraison.EditTodoItemResponse retVal = ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).EditTodoItem(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.EditTodoItemResponse> TodoASMXService.ServiceReference1.TodoServiceSoap.EditTodoItemAsync(TodoASMXService.ServiceReference1.EditTodoItemRequest request) {
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.EditTodoItemResponse> TodoASMXService.FraisDeLivraison.TodoServiceSoap.EditTodoItemAsync(TodoASMXService.FraisDeLivraison.EditTodoItemRequest request) {
             return base.Channel.EditTodoItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.EditTodoItemResponse> EditTodoItemAsync(TodoASMXService.ServiceReference1.TodoItem item) {
-            TodoASMXService.ServiceReference1.EditTodoItemRequest inValue = new TodoASMXService.ServiceReference1.EditTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.EditTodoItemRequestBody();
+        public System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.EditTodoItemResponse> EditTodoItemAsync(TodoASMXService.FraisDeLivraison.TodoItem item) {
+            TodoASMXService.FraisDeLivraison.EditTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.EditTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.EditTodoItemRequestBody();
             inValue.Body.item = item;
-            return ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).EditTodoItemAsync(inValue);
+            return ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).EditTodoItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        TodoASMXService.ServiceReference1.DeleteTodoItemResponse TodoASMXService.ServiceReference1.TodoServiceSoap.DeleteTodoItem(TodoASMXService.ServiceReference1.DeleteTodoItemRequest request) {
+        TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse TodoASMXService.FraisDeLivraison.TodoServiceSoap.DeleteTodoItem(TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest request) {
             return base.Channel.DeleteTodoItem(request);
         }
         
         public void DeleteTodoItem(string id) {
-            TodoASMXService.ServiceReference1.DeleteTodoItemRequest inValue = new TodoASMXService.ServiceReference1.DeleteTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.DeleteTodoItemRequestBody();
+            TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.DeleteTodoItemRequestBody();
             inValue.Body.id = id;
-            TodoASMXService.ServiceReference1.DeleteTodoItemResponse retVal = ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).DeleteTodoItem(inValue);
+            TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse retVal = ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).DeleteTodoItem(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.DeleteTodoItemResponse> TodoASMXService.ServiceReference1.TodoServiceSoap.DeleteTodoItemAsync(TodoASMXService.ServiceReference1.DeleteTodoItemRequest request) {
+        System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse> TodoASMXService.FraisDeLivraison.TodoServiceSoap.DeleteTodoItemAsync(TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest request) {
             return base.Channel.DeleteTodoItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<TodoASMXService.ServiceReference1.DeleteTodoItemResponse> DeleteTodoItemAsync(string id) {
-            TodoASMXService.ServiceReference1.DeleteTodoItemRequest inValue = new TodoASMXService.ServiceReference1.DeleteTodoItemRequest();
-            inValue.Body = new TodoASMXService.ServiceReference1.DeleteTodoItemRequestBody();
+        public System.Threading.Tasks.Task<TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse> DeleteTodoItemAsync(string id) {
+            TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest inValue = new TodoASMXService.FraisDeLivraison.DeleteTodoItemRequest();
+            inValue.Body = new TodoASMXService.FraisDeLivraison.DeleteTodoItemRequestBody();
             inValue.Body.id = id;
-            return ((TodoASMXService.ServiceReference1.TodoServiceSoap)(this)).DeleteTodoItemAsync(inValue);
+            return ((TodoASMXService.FraisDeLivraison.TodoServiceSoap)(this)).DeleteTodoItemAsync(inValue);
         }
         
         public double CalculerFraisDeLivraison(int km, int poids) {

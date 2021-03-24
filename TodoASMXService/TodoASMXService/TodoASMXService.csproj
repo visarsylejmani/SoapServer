@@ -60,25 +60,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\ServiceReference1\TodoASMXService.ServiceReference1.CreateTodoItemResponse.datasource">
+    <Content Include="Connected Services\FraisDeLivraison\TodoASMXService.FraisDeLivraison.CreateTodoItemResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\ServiceReference1\TodoASMXService.ServiceReference1.DeleteTodoItemResponse.datasource">
+    <Content Include="Connected Services\FraisDeLivraison\TodoASMXService.FraisDeLivraison.DeleteTodoItemResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\ServiceReference1\TodoASMXService.ServiceReference1.EditTodoItemResponse.datasource">
+    <Content Include="Connected Services\FraisDeLivraison\TodoASMXService.FraisDeLivraison.EditTodoItemResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\ServiceReference1\TodoASMXService.ServiceReference1.GetTodoItemsResponse.datasource">
+    <Content Include="Connected Services\FraisDeLivraison\TodoASMXService.FraisDeLivraison.GetTodoItemsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\ServiceReference1\TodoASMXService.ServiceReference1.TodoItem.datasource">
+    <Content Include="Connected Services\FraisDeLivraison\TodoASMXService.FraisDeLivraison.TodoItem.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Connected Services\ServiceReference1\TodoService.disco" />
-    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
-    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
-    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+    <None Include="Connected Services\FraisDeLivraison\TodoService.disco" />
+    <None Include="Connected Services\FraisDeLivraison\configuration91.svcinfo" />
+    <None Include="Connected Services\FraisDeLivraison\configuration.svcinfo" />
+    <None Include="Connected Services\FraisDeLivraison\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -86,7 +86,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+    <Compile Include="Connected Services\FraisDeLivraison\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -103,7 +103,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReference1\TodoService.wsdl" />
+    <None Include="Connected Services\FraisDeLivraison\TodoService.wsdl" />
     <None Include="Properties\PublishProfiles\MonSoap - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -116,7 +116,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\FraisDeLivraison\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

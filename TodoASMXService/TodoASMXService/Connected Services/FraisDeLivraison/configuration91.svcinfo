@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="bxAek4TVUfXGPQr6/oP1+uS5oc8KUOwQqVZie1M96l0=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="llOxC9ISJKvkJL81mtDcYHlxurg714j8qUbkGMzxEFE=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="TodoServiceSoap">
       <properties>
@@ -112,7 +112,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="TodoServiceSoap" contract="ServiceReference1.TodoServiceSoap" bindingType="basicHttpBinding" address="http://localhost:49178/TodoService.asmx" bindingConfiguration="TodoServiceSoap">
+    <endpoint name="TodoServiceSoap" contract="FraisDeLivraison.TodoServiceSoap" bindingType="basicHttpBinding" address="http://localhost:49178/TodoService.asmx" bindingConfiguration="TodoServiceSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:49178/TodoService.asmx</serializedValue>
@@ -127,7 +127,7 @@
           <serializedValue>TodoServiceSoap</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>ServiceReference1.TodoServiceSoap</serializedValue>
+          <serializedValue>FraisDeLivraison.TodoServiceSoap</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
