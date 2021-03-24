@@ -1,9 +1,7 @@
 version: '3.4'
 
 networks:
-  frontend:
-  backend:
-
+  default:
 services:
   db:
     image: mariadb:latest
@@ -11,12 +9,12 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: toor
     networks:
-      - backend
+      - default
   phpmyadmin:
     image: phpmyadmin
     restart: always
     ports:
       - 8080:80
     networks:
-      - backend
+      - default
   
