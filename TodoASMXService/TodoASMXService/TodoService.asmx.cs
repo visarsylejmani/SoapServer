@@ -12,7 +12,7 @@ namespace TodoASMXService
     [WebService(Namespace = "http://www.xamarin.com/webservices/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [ToolboxItem(false)]
-    public class TodoService : System.Web.Services.WebService
+    public class TodoService : WebService
     {
         static readonly ITodoService todoService = new Services.TodoService(new TodoRepository());
        

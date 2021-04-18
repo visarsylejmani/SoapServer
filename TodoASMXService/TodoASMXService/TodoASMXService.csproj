@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\FraisDeLivraison\TodoService.wsdl" />
-    <None Include="Properties\PublishProfiles\MonSoap - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\SoapServiceInfo802 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
